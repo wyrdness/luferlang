@@ -1,0 +1,154 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/luferlang",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "luferlang",
+    "name": "Luferlang",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": [
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "enormous",
+      "landscape-feature",
+      "humorous",
+      "tall-tale"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "An impossibly enormous creature so large it is mistaken for a landscape feature such as a hill or mountain ridge.",
+      "full": "The Luferlang is one of the most extreme fearsome critters in terms of scale. This creature is so monumentally enormous that observers mistake it for part of the landscape itself—what appears to be a hill or mountain ridge is actually the sleeping Luferlang. According to lumberjack tall tales, the creature is so vast that it takes days to walk around it, and its breathing creates wind patterns. Trees grow on its back, and entire ecosystems exist on its body without the creature noticing. The Luferlang represents the fearsome critter tradition's love of exaggeration taken to its logical extreme: a creature so large it transcends being an animal and becomes geography."
+    },
+    "etymology": {
+      "origin": "American lumberjack folklore, early 20th century",
+      "meaning": "Unknown; typical nonsense naming of fearsome critters",
+      "first_use": "circa 1910"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Fearsome Critter",
+      "subtype": "Enormous",
+      "variant": "Landscape-scale"
+    },
+    "related_phenomena": []
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": "Enormous beyond measure; mistaken for hills or mountains",
+      "coloration": ["earth-toned", "covered in vegetation"],
+      "features": [
+        {
+          "feature": "Massive scale",
+          "description": "So large it appears to be landscape rather than creature",
+          "frequency": "always"
+        },
+        {
+          "feature": "Vegetation-covered",
+          "description": "Trees and plants grow on its body",
+          "frequency": "common"
+        },
+        {
+          "feature": "Ecosystem host",
+          "description": "Entire ecosystems exist on its back",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Details obscured by impossible scale; appears as geographical feature"
+    },
+    "abilities": [
+      {
+        "ability": "Weather influence",
+        "description": "Breathing creates wind patterns",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Landscape mimicry",
+        "description": "Indistinguishable from natural terrain",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "largely sedentary",
+      "disposition": "neutral (largely unaware of smaller life)",
+      "social_structure": "solitary",
+      "habitat_preference": ["wilderness", "remote regions"],
+      "diet": "Unknown if it eats at all",
+      "patterns": [
+        "Remains stationary for extended periods",
+        "Mistaken for geography",
+        "Unaware of life on its body",
+        "Breathing affects weather"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Remote wilderness areas where unusual landscape features exist",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": ["Remote wilderness", "Areas with unusual terrain"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "1910",
+        "circa": true,
+        "source": "Lumberjack tall tale collections"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "American occupational folklore from lumber camps",
+      "folklore_connections": "Represents extreme exaggeration typical of tall tale tradition; similar to world-turtle myths"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Lumberjack tall tales"],
+      "beliefs": "Never intended to be believed; represents ultimate exaggeration where creature becomes geography"
+    },
+    "popular_culture": {
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910"
+    }
+  ]
+}
