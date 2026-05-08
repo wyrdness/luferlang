@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/luferlang",
     "maintainers": [
       {
@@ -16,72 +16,115 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "luferlang",
     "name": "Luferlang",
-    "aliases": [],
+    "aliases": [
+      { "name": "Lufferlang", "region": "North American logging-camp folklore" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter (lumberjack folklore)",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critter",
+      "tall-tale",
+      "lumberjack-folklore",
+      "north-america",
+      "great-lakes",
+      "equine"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Luferlang represents the fearsome critter tradition's ultimate exaggeration.",
-      "full": "The Luferlang represents the fearsome critter tradition's ultimate exaggeration. This creature is so inconceivably enormous that it cannot be recognized as an animal at all—observers mistake it for a landscape feature such as a hill, mountain ridge, or valley. According to the tall tales, what appears to be a natural hill is actually the sleeping Luferlang. The creature is so vast that trees grow on its back, animals live on its body, and entire ecosystems exist within the landscape of its form. It takes days to walk around the Luferlang, and its breathing creates localized wind patterns."
+      "summary": "The Luferlang is a 'fearsome critter' of North American logging-camp tall tales, recorded in Henry H. Tryon's 1939 Fearsome Critters as a hideous equine beast with triple-jointed legs that allow it to run equally fast in any direction, a dark blue dorsal stripe, a swivel-jointed tail set in the middle of its back, and a single deadly bite delivered only once a year.",
+      "full": "The Luferlang (also Lufferlang) is a creature of North American logging-camp folklore, belonging to the genre known as 'fearsome critters'. Its canonical description is from Henry H. Tryon's 1939 Fearsome Critters: a horse-like beast with all four legs triple-jointed, allowing it to run equally fast in any direction, a dark blue stripe down the spine, and a bushy, swivel-jointed tail set in the middle of its back. It is reputed to be exceptionally dangerous and likely to attack without provocation, but bites only once a year — though, the tradition holds, that single bite is invariably fatal. The standard defences cited by Tryon are unusually specific: holding up a large mirror so the doubled image confuses the beast and drives it off, or wearing or displaying an orange-coloured handkerchief, which is said to give 'full protection'. Like other fearsome critters — the Hodag, the Snoligoster, the Hidebehind, the Squonk — the Luferlang originated as an oral tall-tale tradition in the logging camps of the Great Lakes and northeast United States, used to entertain seasoned loggers and to haze new recruits. It survives almost entirely as a literary tradition, principally through Tryon's book."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined within North American logging-camp oral tradition; the etymology is opaque and not given in the cited literature. The word's first published appearance in cryptid bestiaries is in Henry H. Tryon's Fearsome Critters (1939).",
+      "meaning": "Not glossed in the original sources.",
+      "first_use": "1939 (Tryon, Fearsome Critters)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Equine tall-tale beast",
+      "variant": "North American logging-camp"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hodag", "name": "Hodag", "relationship": "similar", "description": "Wisconsin lumberjack fearsome critter" },
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Lumberjack fearsome critter that hides behind trees" },
+      { "id": "squonk", "name": "Squonk", "relationship": "similar", "description": "Pennsylvania lumberjack fearsome critter" },
+      { "id": "agropelter", "name": "Agropelter", "relationship": "similar", "description": "Branch-throwing lumberjack fearsome critter" },
+      { "id": "splinter-cat", "name": "Splinter Cat", "relationship": "similar", "description": "Tree-shattering lumberjack fearsome critter" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["unspecified body colour", "dark blue dorsal stripe"],
+      "features": [
+        { "feature": "Triple-jointed legs", "description": "All four legs are triple-jointed, enabling the Luferlang to run equally fast in any direction", "frequency": "always" },
+        { "feature": "Dark blue dorsal stripe", "description": "Distinctive dark blue stripe running down the spine", "frequency": "always" },
+        { "feature": "Mid-back swivel tail", "description": "Bushy, swivel-jointed tail set in the middle of the back rather than the rump", "frequency": "always" },
+        { "feature": "Equine appearance", "description": "Horse-like overall body plan, described as a 'braying equine fiend'", "frequency": "always" }
+      ],
+      "morphology": "Roughly horse-shaped but anatomically anomalous: short triple-jointed legs, mid-back tail, and a build optimised for omnidirectional running rather than typical equine locomotion."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Omnidirectional running", "description": "Triple-jointed legs allow the Luferlang to run forwards, backwards or sideways with equal speed", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Annual fatal bite", "description": "Bites only once a year; the bite is said to be unfailingly lethal", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Confused by a mirror image", "description": "A large mirror held up beside the would-be victim is said to confuse the creature into retreat", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Repelled by an orange handkerchief", "description": "An orange-coloured handkerchief conspicuously displayed is said to give full protection", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["dense forests of the northern United States", "logging country", "Great Lakes woods"],
+      "patterns": [
+        "Attacks without apparent provocation",
+        "Targets lone travellers and lumberjacks",
+        "Bites no more than once per year"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A creature of the oral tradition of North American logging camps, with no fixed real-world range. Tryon (1939) places fearsome critters generally in the forests of the northern United States and Canada.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": ["Great Lakes", "Northeast United States", "Pacific Northwest logging country"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1939",
+        "circa": false,
+        "source": "Henry H. Tryon, Fearsome Critters (1939)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 19th – early 20th century", "description": "Oral peak in the logging-camp tradition that gave rise to the fearsome critters" },
+        { "period": "1939", "description": "Codification in Tryon's published bestiary" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "North American lumberjack tall-tale tradition, especially around the Great Lakes, in which experienced loggers entertained themselves and hazed new recruits with stories of dangerous and absurd forest beasts.",
+      "earliest_accounts": "The oral tradition of fearsome critters circulated in logging camps from at least the late 19th century. The Luferlang specifically is first attested in print in Henry H. Tryon's Fearsome Critters (1939).",
+      "folklore_connections": "Belongs to the broader fearsome-critter genre alongside the Hodag, Hidebehind, Squonk, Agropelter and others; documented in William T. Cox's Fearsome Creatures of the Lumberwoods (1910) and Tryon's Fearsome Critters (1939)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910-01-01", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods, codifying the genre but not including the Luferlang", "significance": "Establishes the published fearsome-critter genre", "source": "Wikipedia, Fearsome critters" },
+      { "date": "1939-01-01", "event": "Henry H. Tryon publishes Fearsome Critters, including the canonical Luferlang entry", "significance": "Earliest known print appearance of the Luferlang", "source": "Wikipedia, Fearsome critters; Tryon, H. H. (1939)" }
+    ],
+    "modern_era": "The Luferlang survives almost entirely through reprints of Tryon's Fearsome Critters and through cryptid-folklore websites and bestiaries. It plays no active role in serious cryptozoology and is treated by folklorists as a clear example of occupational tall-tale tradition rather than as a candidate cryptid."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +135,77 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "luferlang-evidence-tryon-1939",
+        "type": "book entry",
+        "name": "Tryon, Fearsome Critters (1939) — Luferlang entry",
+        "date": "1939",
+        "description": "The canonical print description of the Luferlang as a triple-jointed equine beast with a dorsal stripe, mid-back swivel tail, an annually fatal bite, and the specific defences of a mirror or orange handkerchief.",
+        "status": "verified",
+        "analysis": "Treated by folklorists as a creature of literary tall-tale tradition rather than as evidence of any real animal.",
+        "source": "Tryon, H. H. (1939), Fearsome Critters"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Occupational tall-tale",
+        "description": "The Luferlang is a literary/oral creation of North American logging-camp culture, used to entertain experienced loggers and haze new recruits. It is not a candidate cryptid.",
+        "proponents": ["Folklorists of the fearsome-critter tradition"],
+        "evidence_cited": ["Confined entirely to fearsome-critter literature", "Highly stylised, comic anatomical features", "No claimed sightings outside the genre"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "North American lumberjack tall-tale tradition",
+        "Great Lakes logging-camp oral storytelling"
+      ],
+      "stories": [
+        "Tryon (1939) Luferlang vignette: orange-handkerchief and mirror defences against the once-a-year bite"
+      ],
+      "beliefs": "Audiences of these tall tales never literally believed in fearsome critters; the tradition functions as occupational humour and initiation."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Henry H. Tryon, Fearsome Critters (1939)",
+        "William T. Cox, Fearsome Creatures of the Lumberwoods (1910) — broader genre"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Recurring entry in modern fearsome-critter bestiary websites and zines"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Henry H. Tryon", "affiliation": "Forester and folklore compiler", "contribution": "Author of Fearsome Critters (1939), the canonical source for the Luferlang", "period": "1939" },
+      { "name": "William T. Cox", "affiliation": "Minnesota state forester", "contribution": "Author of Fearsome Creatures of the Lumberwoods (1910), foundational text for the genre", "period": "1910" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The Luferlang is studied within the folkloristics of North American occupational tall tales rather than within cryptozoology."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press", "date": "1939" },
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910" },
+    { "id": "wikipedia-fearsome-critters", "type": "website", "title": "Fearsome critters", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" },
+    { "id": "lumberwoods-cox", "type": "website", "title": "William T. Cox's Fearsome Creatures of the Lumberwoods (full text)", "publication": "lumberwoods.com", "url": "http://www.lib.lumberwoods.com/fclw/title.html", "accessed": "2026-05-07" }
+  ]
 }
